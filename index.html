@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <!-- inicio LOADER -->
+
+  <div id="loader" class="loader">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="loader-img">
+      <title>Academlo Logo</title>
+      <g>
+          <g>
+              <path
+              d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+              </path>
+              <path
+              d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+              </path>
+          </g>
+      </g>
+    </svg>
+
+  </div>
+
+  <!-- fin LOADER -->
+
+  <!-- inicio HEADER -->
+
+  <header class="caja-header" id="cajaHeader">
+
+    <nav class="nav">
+
+        <a class="anchor-main" href="#">
+          <svg height="50px" width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" id="logo-academlo">
+            <title>Academlo Logo</title>
+            <g>
+              <g>
+                <path
+                  d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          STORE
+        </a>
+
+        <ul class="nav-menu" id="menu">
+
+          <li class="menu-item">
+            <a href="#cajaHeader" id="home">HOME</a>
+          </li>
+          <li class="menu-item">
+            <a href="#grupos">PRODUCTS</a>
+          </li>
+
+          <i class='bx bx-x bx-md' id="close-menu"></i>
+          
+        </ul>
+
+        <div class="contenedor-iconos">
+
+          <i class='bx bx-moon bx-sm' id="theme-btn"></i>
+          
+          <div class="cart-container">
+            <i class='bx bx-shopping-bag bx-sm' id="cart-icon"></i>
+            <span id="cart-counter">0</span>
+          </div>  
+
+          <i class='bx bx-menu bx-sm' id="menu-btn"></i>
+          
+        </div>
+
+        <div class="carrito carrito-styles" id="carrito">
+
+          <i class='bx bx-x bx-md' id="close-cart"></i>
+
+          <h4>My cart</h4>
+
+          <div class="carrito-empty-container" id="productsInCart">
+
+            <img class="carrito-empty-img" src="./assets/images/empty-cart.png" alt="carrito vacio">
+            <p class="carrito-empty-text"><span>Your cart is empty</span> You can add items to your cart by clicking on the '+' button on the product page </p>
+
+          </div>
+
+          <div class="cuentas">
+            <div class="itemsAndprice">
+              <span class="items" id="itemsInCart">0 items</span>
+              <span class="precio-total" id="precioTotal">$ 0.00</span>
+            </div>
+            <button class="cuentas-btn"><i class='bx bxs-check-shield'></i>Checkout</button>
+
+          </div>
+
+
+        </div>
+
+    </nav>
+
+    <!-- inicio HEADER - INFORMATION -->
+
+    <div class="header-information">
+
+      <img src="./assets/images/home.png" alt="img home" class="img-home">
+
+      <div class="header-text">
+          <h1 class="header-title">New Sweatshirt<br> COLLECTIONS 2022</h1>
+
+          <p class="parrafo-header">
+            Lastest arrival of the new Hanes Midwight Crewneck sweatshirt
+            imported from the 2022 series, with a modern design.
+          </p>
+
+          <span class="price">
+            $14.00
+          </span>
+
+          <div class="botones">
+            <button class="btn-discover">Discover</button>
+            <button class="btn-add">ADD TO CAR</button>
+          </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- final HEADER -->
+
+  <!-- inicio GRUPOS -->
+
+  <div class="caja-grupos" id="grupos">
+
+    <div class="grupo g-uno">
+      Show all
+      <span class="texto-grupo">show all products</span>
+    </div>
+
+    <div class="grupo g-dos">
+      Hoodies
+      <span class="texto-grupo">3 products</span>
+    </div>
+
+    <div class="grupo g-tres">
+      Shirts
+      <span class="texto-grupo">4 products</span>
+    </div>
+
+    <div class="grupo g-cuatro">
+      Sweatshirts
+      <span class="texto-grupo">4 products</span>
+    </div>
+
+  </div>
+    
+  <!-- final GRUPOS -->
+
+  <!-- inicio ROPA -->
+
+  <div class="caja-ropa" id="caja-ropa">
+
+  </div>
+
+  <!-- final ROPA -->
+
+  <!-- inicio FOOTER -->
+
+  <footer class="footer">
+
+    <div class="footer-sections item-uno">
+
+      <div class="footer-section">
+        <h4>Our Information</h4>
+        <a href="#">Toluca - México</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <a href="#">Support Center</a>
+        <a href="#">Support Center</a>
+        <a href="#">Support Center</a>
+        <a href="#">Copy Right</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Product</h4>
+        <a href="#">Hoodies</a>
+        <a href="#">Shirts</a>
+        <a href="#">Sweatshirts</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Social</h4>
+        <div class="container-social">
+          <a class="anchor-uno" href="#"><i class='bx bxl-facebook bx-sm'></i></a>
+          <a class="anchor-dos" href="#"><i class='bx bxl-twitter bx-sm'></i></a>
+          <a class="anchor-tres" href="#"><i class='bx bxl-instagram bx-sm'></i></a>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="rights item-dos">
+      <span class="rights"> &#9400 ACADEMLO. All rights reserved</span>
+    </div>
+    
+  </footer>
+
+  <!-- final FOOTER -->
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
